@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clock{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    margin: 0 auto;
+    width: 20%;
+    border: 5px solid tan;
+    outline: 8px solid blue;
+}
+
+h1{
+    padding: 20px;
+}
+
+input{
+    display: block;
+}
+
+.form-control.error input{
+    border: 1px solid tomato;
+}
+.form-control.success input{
+    border: 1px solid green;
+}
+
+.error small{
+    color:  #c2cacb;
+}
+.error small{
+    color:  tomato;
+}
+
+
+/*  */
